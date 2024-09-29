@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.more-question-container {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: -10px;
+  background-color: rgb(0, 110, 111);
+  .more-question {
+    margin: auto;
+    width: 1200px;
+    font-weight: 500;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    .see-popular-question {
+      color: rgb(255, 240, 75);
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}

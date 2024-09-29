@@ -1,0 +1,141 @@
+{
+  "home-header": {
+    "specialty": "Chuyên khoa",
+    "find-doctor-by-specialty": "Tìm bác sĩ theo chuyên khoa",
+    "health-facility": "Cơ sở y tế",
+    "choose-hospital-or-room": "Chọn bệnh viện phòng khám",
+    "doctor": "Bác sĩ",
+    "choose-good-doctor": "Chọn bác sĩ giỏi",
+    "general-health-check": "Khám sức khoẻ tổng quát",
+    "support": "Hỗ trợ",
+    "welcome": "Xin chào"
+  },
+  "banner": {
+    "medical-background": "NỀN TẢNG Y TẾ",
+    "comprehensive-health-care": "CHĂM SÓC SỨC KHOẺ TOÀN DIỆN",
+    "find-medical-specialty": "Tìm chuyên khoa khám bệnh",
+    "specialized-examination": "Khám chuyên khoa",
+    "remote-examination": "Khám từ xa",
+    "general-examination": "Khám tổng quát",
+    "medical-test": "Xét nghiệm y học",
+    "mental-health": "Sức khoẻ tinh thần",
+    "dental-examination": "Khám nha khoa"
+  },
+  "menu": {
+    "admin": {
+      "manage-user": "Quản lý người dùng",
+      "manage-doctor": "Quản lý bác sĩ",
+      "manage-admin": "Quản lý admin",
+      "crud": "CRUD user",
+      "crud-redux": "CRUD Redux",
+      "clinic": "Phòng khám",
+      "create-clinic": "Thêm mới phòng khám",
+      "update-clinic": "Chỉnh sửa phòng khám",
+      "specialty": "Chuyên khoa",
+      "create-specialty": "Tạo mới chuyên khoa",
+      "update-specialty": "Chỉnh sửa chuyên khoa",
+      "handbook": "Cẩm nang",
+      "create-handbook": "Tạo mới cẩm nang",
+      "update-handbook": "Chỉnh sửa cẩm nang"
+    },
+    "doctor": {
+      "manage-schedule": "Quản lý kế hoạch khám bệnh",
+      "manage-patient": "Quản lý bệnh nhân khám bệnh"
+    }
+  },
+  "manage-user": {
+    "add-new-user": "Thêm mới người dùng",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "first-name": "Tên",
+    "last-name": "Họ",
+    "phone-number": "Số điện thoại",
+    "address": "Địa chỉ",
+    "gender": "Giới tính",
+    "position": "Vị trí",
+    "role-id": "Vai trò",
+    "image": "Ảnh",
+    "create": "Tạo mới",
+    "upload-image": "Tải ảnh",
+    "save-changes": "Lưu thay đổi"
+  },
+  "manage-clinic": {
+    "background-clinic": "Background phòng khám",
+    "image-clinic": "Ảnh phòng khám"
+  },
+  "manage-specialty": {
+    "image-specialty": "Ảnh chuyên khoa"
+  },
+  "manage-handbook": {
+    "image-handbook": "Ảnh cẩm nang"
+  },
+  "homepage": {
+    "outstanding-doctor": "Bác sĩ nổi bật",
+    "see-more": "Xem thêm",
+    "popular-specialty": "Chuyên khoa phổ biến",
+    "facility": "Cơ sở y tế nổi bật",
+    "handbook": "Cẩm nang"
+  },
+  "manage-schedule": {
+    "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+    "choose-doctor": "Chọn bác sĩ",
+    "choose-date": "Chọn ngày",
+    "save-info": "Lưu thông tin"
+  },
+  "patient": {
+    "detail-doctor": {
+      "schedule": "Lịch khám",
+      "no-schedule": "Không có lịch khám của bác sĩ trong thời gian này!",
+      "choose": "Chọn ",
+      "booking-free": " và đặt (Phí đặt lịch 0đ)"
+    },
+    "extra-info": {
+      "examination-address": "Địa chỉ khám",
+      "examination-fee": "Giá khám",
+      "see-detail": "Xem chi tiết",
+      "hide-detail": "Ẩn bảng giá",
+      "payment-method": "Người bệnh có thể thanh toán chi phí bằng hình thức: "
+    },
+    "booking-modal": {
+      "title": "Thông tin đặt lịch khám bệnh",
+      "name-note": "Hãy ghi rõ Họ Và Tên, viết hoa những chữ cái đầu tiên, ví dụ: Trần Văn Phú",
+      "gender": "Giới tính",
+      "payment-method": "Hình thức thanh toán",
+      "examination-fee": "Giá khám",
+      "booking-fee": "Phí đặt lịch",
+      "free": "Miễn phí",
+      "total": "Tổng cộng",
+      "text-note": "Quý khách vui lòng điền đầy đủ thông tin để tiết kiệm thời gian làm thủ tục khám",
+      "footer": {
+        "note-title": "Lưu ý",
+        "note-desc": "Thông tin anh/chị cung cấp sẽ được sử dụng làm hồ sơ khám bệnh, khi điền thông tin anh/chị vui lòng:",
+        "note-name": "Ghi rõ họ và tên, viết hoa những chữ cái đầu tiên, ví dụ:",
+        "fill-in": "Điền đầy đủ, đúng và vui lòng kiểm tra lại thông tin trước khi ấn 'Xác nhận'",
+        "confirm-booking": "Xác nhận đặt khám",
+        "term-confirm": "Bằng việc xác nhận đặt khám, bạn đã hoàn toàn đồng ý với",
+        "term": "Điều khoản sử dụng",
+        "our-services": "dịch vụ của chúng tôi"
+      }
+    },
+    "profile-doctor": {
+      "booking": "Đặt lịch khám",
+      "examination-fee": "Giá khám",
+      "see-more": "Xem thêm"
+    }
+  },
+  "admin": {
+    "manage-doctor": {
+      "title": "Tạo thêm thông tin bác sĩ",
+      "choose-doctor": "Chọn bác sĩ",
+      "introduction": "Thông tin giới thiệu",
+      "save-info": "Lưu thông tin",
+      "create-info": "Tạo thông tin",
+      "choose-price": "Giá khám",
+      "choose-payment": "Phương thức thanh toán",
+      "choose-province": "Tỉnh thành",
+      "clinic-name": "Tên phòng khám",
+      "clinic-address": "Địa chỉ phòng khám",
+      "note": "Lưu ý"
+    }
+  }
+}

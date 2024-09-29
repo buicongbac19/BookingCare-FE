@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.doctor-extra-info-container {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 0 16px;
+  border-left: 1px solid rgb(238, 238, 238);
+
+  .content-up {
+    .text-address {
+      font-weight: 600;
+      text-transform: uppercase;
+      color: rgb(102, 102, 102);
+    }
+    .name-clinic {
+      font-size: 13px;
+      color: #000;
+      font-weight: 600;
+    }
+    .address {
+      font-size: 13px;
+    }
+  }
+  .content-down {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(238, 238, 238);
+    .no-detail {
+      .text-price {
+        font-weight: 600;
+        text-transform: uppercase;
+        color: rgb(102, 102, 102);
+        display: inline-block;
+      }
+      .price {
+        display: inline-block;
+        margin: 0 5px;
+      }
+      .see-detail {
+        font-weight: 600;
+        display: inline-block;
+        color: rgb(72, 196, 211);
+        cursor: pointer;
+      }
+    }
+    .detail {
+      .text-price {
+        font-weight: 600;
+        text-transform: uppercase;
+        color: rgb(102, 102, 102);
+        display: inline-block;
+      }
+      .detail-note-container {
+        margin: 10px 0;
+        border: 1px solid rgb(221, 221, 221);
+        .detail-note {
+          border-bottom: 1px solid rgb(221, 221, 221);
+          padding: 3px;
+          background-color: rgb(248, 248, 248);
+          .detail-price {
+            display: flex;
+            justify-content: space-between;
+          }
+          .note {
+            font-size: 13px;
+            color: #666;
+          }
+        }
+        .payment-method {
+          padding: 3px;
+          background-color: rgb(248, 248, 248);
+        }
+      }
+      .hide-detail {
+        font-weight: 600;
+        color: rgb(72, 196, 211);
+        cursor: pointer;
+      }
+    }
+  }
+}

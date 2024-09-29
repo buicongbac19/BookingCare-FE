@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.detail-handbook-container {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  width: 1200px;
+  margin: auto;
+  .handbook-title {
+    font-size: 32px;
+    margin: 15px 0;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+  }
+  .handbook-author {
+    span {
+      color: rgb(69, 195, 210);
+      cursor: pointer;
+    }
+  }
+  .note {
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .booking-care-intro {
+    display: flex;
+    margin: 15px 0;
+    background-color: rgb(223, 240, 216);
+    border: 0.8px solid rgb(214, 233, 198);
+    border-radius: 4px;
+    padding: 12px 12px 20px 20px;
+    color: rgb(60, 118, 61);
+    .bulb-icon {
+      font-size: 24px;
+      color: #ea8600;
+      margin-right: 20px;
+    }
+  }
+  .handbook-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 500px;
+    width: 1200px;
+  }
+
+  .image-caption {
+    padding: 10px;
+    width: 100%;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+  }
+  .handbook-detail {
+    padding-top: 10px;
+    height: fit-content;
+    width: 100%;
+    background-color: #fcfaf6;
+    .handbook-desc {
+      max-width: 950px;
+      margin: auto;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-size: 18px;
+      text-align: justify;
+      strong {
+        color: rgb(69, 195, 210);
+        font-weight: 400;
+      }
+      h2,
+      h3 {
+        margin: 20px 0;
+        font-size: 19px;
+        font-weight: 600;
+      }
+    }
+  }
+  .btn-actions {
+    border-top: 5px solid #eee;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: rgb(244, 242, 243);
+    text-align: center;
+  }
+
+  .related-posts-container {
+    border-top: 5px solid #eee;
+    padding: 20px;
+    background-color: rgb(252, 250, 246);
+    width: 100%;
+    .related-posts {
+      max-width: 950px;
+      margin: auto;
+      .text-related {
+        padding-top: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 32px;
+        font-weight: 600;
+        color: rgb(93, 93, 93);
+      }
+      .related-post {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+        border-bottom: 0.8px solid rgb(238, 238, 238);
+        .content-left {
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 200px;
+          height: 100px;
+          margin-right: 10px;
+        }
+        .content-right {
+          color: rgb(51, 51, 51);
+          font-size: 17.6px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

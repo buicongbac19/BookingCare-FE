@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.home-page {
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+
+  .section {
+    &.outstanding-doctor {
+      background-image: url("./../../assets/outstandingDoctor/background.png");
+    }
+    background-color: #fff;
+    .section-container {
+      padding: 20px 0;
+      width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      .section-header {
+        height: 60px;
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+        .title-section {
+          font-size: 25px;
+          font-weight: 600;
+        }
+        .btn-section {
+          margin-left: auto;
+          font-weight: 600;
+          padding: 10px 8px;
+          font-size: 20px;
+          border-radius: 16px;
+          color: rgb(52, 146, 158);
+          border: none;
+          outline: none;
+          background-color: rgb(218, 243, 246);
+          &:hover {
+            background-color: #f7d800;
+            color: white;
+          }
+        }
+      }
+      .section-body {
+        .slider {
+          margin-left: 10px;
+          .section-customize {
+            height: 380px;
+            cursor: pointer;
+            width: 373px;
+            padding: 20px;
+            border: 1.6px solid rgb(241, 241, 241);
+            border-radius: 16px;
+            .section-name {
+              font-size: 18.5px;
+              text-align: center;
+              font-weight: 500;
+              margin-top: 24px;
+              margin-bottom: 4px;
+              font-weight: 600;
+            }
+            .section-image {
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              &.outstanding-doctor-img {
+                border-radius: 50%;
+                width: 84%;
+              }
+              &.facility-img {
+                background-size: contain;
+                background-color: #fff;
+              }
+              &.handbook-img {
+                background-image: url("../../assets/handbook/kham-mat-cho-be-o-dau-tot-tphcm.png");
+                border-radius: 10px;
+                background-color: #fff;
+                background-size: contain;
+              }
+              height: 216px;
+              background-color: #eee;
+            }
+          }
+          .outer-container {
+            padding: 0 5px;
+            .section-border {
+              .section-customize {
+                padding: 0;
+                border-radius: 0;
+                border: none;
+                width: 264px;
+                .section-image {
+                  border-radius: 50%;
+                  margin: 0 auto;
+                }
+                .section-name {
+                  .section-position {
+                    font-size: 18px;
+                    color: #113135;
+                    font-weight: 600;
+                    margin-bottom: 4px;
+                  }
+                  .section-specialty {
+                    font-size: 16px;
+                    color: #626262;
+                    font-weight: 400;
+                  }
+                }
+              }
+            }
+          }
+
+          .slick-slide.slick-active:nth-child(3n + 1) > div {
+            margin-right: 40px;
+          }
+
+          .slick-slide.slick-active:nth-child(3n + 2) > div {
+            margin-right: 40px;
+          }
+
+          .slick-arrow {
+            z-index: 100000 !important;
+            height: 40px !important;
+            width: 40px !important;
+            background: #fff !important;
+            border: 0.8px solid rgb(181, 231, 237) !important;
+            border-radius: 8px !important;
+            &:hover {
+              background: #eceaea !important;
+            }
+          }
+
+          .slick-prev::before {
+            content: url("../../assets/Section/left-arrow.svg");
+          }
+
+          .slick-next::before {
+            content: url("../../assets/Section/arrow-right.svg");
+          }
+
+          .slick-disabled {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+#table-manage-users {
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    i {
+      font-size: 20px;
+    }
+  }
+  .edit-btn {
+    margin-right: 20px;
+    margin-left: 10px;
+    color: orange;
+  }
+  .delete-btn {
+    color: red;
+  }
+}
+
+#table-manage-users {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table-manage-users td,
+#table-manage-users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table-manage-users tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table-manage-users tr:hover {
+  background-color: #ddd;
+}
+
+#table-manage-users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.rc-md-editor .editor-container .sec-html .html-wrap {
+  width: 100%;
+}

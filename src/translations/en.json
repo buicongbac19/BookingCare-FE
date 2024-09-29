@@ -1,0 +1,128 @@
+{
+  "home-header": {
+    "specialty": "Specialty",
+    "find-doctor-by-specialty": "Find a doctor by specialty",
+    "health-facility": "Health facility",
+    "choose-hospital-or-room": "Choose a hospital, clinic",
+    "doctor": "Doctor",
+    "choose-good-doctor": "Choose a good doctor",
+    "general-health-check": "General health examination",
+    "support": "Support",
+    "welcome": "welcome"
+  },
+  "banner": {
+    "medical-background": "MEDICAL FOUNDATION",
+    "comprehensive-health-care": "COMPREHENSIVE HEALTH CARE",
+    "find-medical-specialty": "Find a medical specialty",
+    "specialized-examination": "Specialized examination",
+    "remote-examination": "Remote examination",
+    "general-examination": "General examination",
+    "medical-test": "Medical test",
+    "mental-health": "Mental health",
+    "dental-examination": "Dental examination"
+  },
+  "menu": {
+    "admin": {
+      "manage-user": "Manage users system",
+      "manage-doctor": "Manage doctors",
+      "manage-admin": "Manage admins",
+      "crud": "CRUD user",
+      "crud-redux": "CRUD Redux",
+      "clinic": "Clinics",
+      "manage-clinic": "Manage clinics",
+      "specialty": "Specialties",
+      "manage-specialty": "Manage specialties",
+      "handbook": "Handbooks",
+      "manage-handbook": "Manage handbooks",
+      "update-handbook": "Update handbook"
+    },
+    "doctor": {
+      "manage-schedule": "Manage Doctor's Schedule",
+      "manage-patient": "Manage Doctor's Patient"
+    }
+  },
+  "manage-user": {
+    "add-new-user": "Add new user",
+    "email": "Email",
+    "password": "Password",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "phone-number": "Phone Number",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "role-id": "RoleID",
+    "image": "Image",
+    "create": "Create",
+    "upload-image": "Upload image",
+    "save-changes": "Save changes"
+  },
+  "homepage": {
+    "outstanding-doctor": "Outstanding doctor last week",
+    "see-more": "See more",
+    "popular-specialty": "Popular specialty",
+    "facility": "Medical facility",
+    "handbook": "Handbook"
+  },
+  "manage-schedule": {
+    "title": "Manage doctor's examination plan",
+    "choose-doctor": "Choose doctor",
+    "choose-date": "Choose date",
+    "save-info": "Save info"
+  },
+  "patient": {
+    "detail-doctor": {
+      "schedule": "Schedule",
+      "no-schedule": "No doctor's appointments available at this time!",
+      "choose": "Chosse ",
+      "booking-free": " and book (Booking fee 0 VND)"
+    },
+    "extra-info": {
+      "examination-address": "Examination address",
+      "examination-fee": "Examination fee",
+      "see-detail": "See detail",
+      "hide-detail": "Hide detail",
+      "payment-method": "Patients can pay the cost by: "
+    },
+    "booking-modal": {
+      "title": "Medical appointment information",
+      "name-note": "Please write your Full Name clearly, capitalizing the first letters, for example: Tran Van Phu",
+      "gender": "Gender",
+      "payment-method": "Payment method",
+      "examination-fee": "Examination fee",
+      "booking-fee": "Booking fee",
+      "free": "Free of charge",
+      "total": "Total",
+      "text-note": "Please fill in all information to save time in medical examination procedures.",
+      "footer": {
+        "note-title": "Note",
+        "note-desc": "The information you provide will be used as medical records. When filling out the information, please:",
+        "note-name": "Write your full name clearly, capitalizing the first letter, for example:",
+        "fill-in": "Fill in completely and correctly and please check the information again before clicking 'Confirm'",
+        "confirm-booking": "Confirm appointment",
+        "term-confirm": "By confirming your appointment, you fully agree to",
+        "term": "Terms of Use",
+        "our-services": "our services"
+      }
+    },
+    "profile-doctor": {
+      "booking": "Make an appointment",
+      "examination-fee": "Examination fee"
+    }
+  },
+  "admin": {
+    "manage-doctor": {
+      "title": "Create more doctor information",
+      "choose-doctor": "Choose doctor",
+      "introduction": "Introduction",
+      "save-info": "Save information",
+      "create-info": "Create information",
+      "choose-price": "Price",
+      "choose-payment": "Payment method",
+      "choose-province": "Province",
+      "clinic-name": "Clinic name",
+      "clinic-address": "Clinic address",
+      "note": "Note"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.footer {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  padding: 32px 0;
+  height: 312px;
+  background-color: rgb(239, 239, 239);
+  height: auto;
+  .footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    .footer-content {
+      display: flex;
+      .content-left {
+        width: 40%;
+        .icon {
+          margin-right: 10px;
+          font-size: 15px;
+          -webkit-text-stroke: 1px;
+        }
+        .company,
+        .other-address {
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 21px;
+        }
+        .other-address {
+          margin-top: 8px;
+        }
+        .address,
+        .license,
+        .telephone,
+        .email {
+          display: flex;
+          margin: 4px 0 4px 8px;
+        }
+        .telephone {
+          .phone-number {
+            text-decoration: underline;
+          }
+        }
+        .certification {
+          display: flex;
+          margin-top: 8px;
+          .certification-logo {
+            cursor: pointer;
+            background-image: url("../../assets/footer/bo-cong-thuong.svg");
+            height: 100px;
+            width: 120px;
+            background-repeat: no-repeat;
+            zoom: 0.8;
+          }
+        }
+      }
+      .center-content {
+        width: 20%;
+        padding-left: 8px;
+        height: 100%;
+        .logo {
+          background-image: url("../../assets/images/logo.svg");
+          background-repeat: no-repeat;
+          width: 140px;
+          height: 30px;
+          margin-bottom: 4px;
+          cursor: pointer;
+        }
+        .child {
+          cursor: pointer;
+          font-size: 14px;
+          padding: 4px 0;
+          color: rgb(69, 195, 210);
+        }
+      }
+      .right-content {
+        padding-left: 8px;
+        width: 40%;
+        .partner {
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 21px;
+        }
+        .child-partner {
+          cursor: pointer;
+          height: 70px;
+          padding: 4px 0;
+          display: flex;
+          align-items: center;
+          .partner-logo {
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            width: 64px;
+            height: 64px;
+            &.hello-doctor {
+              background-image: url("../../assets/footer/hellodoctorlogo.png");
+            }
+            &.bernard {
+              background-image: url("../../assets/footer/bernard.png");
+            }
+            &.doctor-check {
+              background-image: url("../../assets/footer/doctor-check-2.png");
+            }
+          }
+          .partner-info {
+            margin-left: 8px;
+            font-size: 14px;
+            line-height: 21px;
+            .partner-name {
+              font-weight: 700;
+            }
+            .partner-desc {
+              width: 90%;
+              height: 42px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+    .download {
+      border-top: 1px solid rgb(204, 204, 204);
+      .download-method {
+        margin-top: 8px;
+        .icon {
+          margin-right: 10px;
+          font-size: 15px;
+          -webkit-text-stroke: 1px;
+        }
+        .platform {
+          color: #45c3d2;
+        }
+      }
+    }
+  }
+}
+.copyright {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: auto;
+  background-color: rgb(100, 185, 229);
+  padding: 12px 12px 20px 12px;
+  .copyright-container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    .copyright-content {
+      font-size: 12px;
+      color: #fff;
+    }
+    .social-networking {
+      margin-left: auto;
+      display: flex;
+      .child {
+        cursor: pointer;
+        margin-top: 8px;
+        margin-left: 8px;
+        width: 32px;
+        height: 32px;
+        &.tiktok {
+          background-image: url("../../assets/footer/tiktok.svg");
+        }
+        &.facebook {
+          background-image: url("../../assets/footer/facebook.svg");
+        }
+        &.youtube {
+          background-image: url("../../assets/footer/youtube.svg");
+        }
+      }
+    }
+  }
+}

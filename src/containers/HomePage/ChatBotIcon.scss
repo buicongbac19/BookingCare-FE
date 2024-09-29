@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.chatbot-icon-container {
+  position: fixed;
+  right: 12px;
+  bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .go-to-top {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    width: 44px;
+    height: 44px;
+    background-color: rgb(69, 195, 210);
+    cursor: pointer;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  .chatbot-icon {
+    background-image: url("../../assets/images/chatboticon.png");
+    width: 65px;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .chatbot-text {
+    color: rgb(254, 197, 29);
+    font-weight: 600;
+    margin-top: 5px;
+  }
+}

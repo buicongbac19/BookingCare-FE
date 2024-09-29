@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.about {
+  width: 100%;
+  background-image: url("../../assets/about/background.png");
+  height: 450px;
+  .about-container {
+    height: 400px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    .about-title {
+      font-family: "Montserrat", sans-serif;
+      font-size: 32px;
+      color: #1a1a1a;
+      text-align: center;
+      font-weight: 600;
+    }
+    .about-body {
+      display: flex;
+      margin-top: 36px;
+      .about-video {
+        width: 50%;
+        .about-video-iframe {
+          border-radius: 10px;
+        }
+      }
+      .about-social {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: auto;
+        .about-social-child {
+          width: 274px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          height: 65px;
+          border-radius: 10px;
+          .about-social-logo {
+            height: 60%;
+            width: 60%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            &.vtv1 {
+              background-image: url("../../assets/about/vtv1.png");
+            }
+            &.ict-news {
+              background-image: url("../../assets/about/ictnews.png");
+            }
+            &.vn-express {
+              background-image: url("../../assets/about/vnexpress.png");
+            }
+            &.vtc-news {
+              background-image: url("../../assets/about/vtcnews.png");
+            }
+            &.cuc-cntt {
+              background-image: url("../../assets/about/cuc-cntt-bo-y-te.png");
+            }
+            &.info-net {
+              background-image: url("../../assets/about/infonet.png");
+            }
+            &.dan-tri {
+              background-image: url("../../assets/about/dantri.png");
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.fade {
+  transition: opacity 0.15s linear;
+}
+
+.modal-content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  .booking-modal-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .booking-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      .header-title {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 20px;
+      }
+      .header-close-btn {
+        cursor: pointer;
+        font-size: 20px;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+    .booking-modal-body {
+      width: 100%;
+      .doctor-info-container {
+        margin: 0 -15px;
+      }
+      .booking-input-wrapper {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 3px;
+        .booking-input-icon {
+          margin-right: 10px;
+        }
+        .booking-input {
+          padding: 0;
+          border: none;
+          outline: none;
+          flex: 1;
+        }
+        .booking-input-icon:has(+ .booking-input:focus) {
+          color: #45c3d2;
+        }
+      }
+      .input-name-note {
+        font-size: 13px;
+        color: rgb(102, 102, 102);
+        margin-top: 5px;
+      }
+      .error-notify {
+        font-size: 13px;
+        color: red;
+        display: block;
+        margin-top: 5px;
+      }
+      .booking-input-gender {
+        align-items: center;
+        margin: 10px 0;
+        .text-gender {
+          font-size: 12px;
+          color: rgb(51, 122, 183);
+          margin: 5px 0;
+          font-weight: 600;
+        }
+        .gender-select {
+          margin: 10px 0;
+        }
+      }
+      .booking-payment-method {
+        margin: 10px 0;
+        .text-method {
+          font-size: 12px;
+          color: rgb(51, 122, 183);
+          margin: 5px 0;
+          font-weight: 600;
+        }
+      }
+      .booking-overview {
+        margin-top: 10px;
+        border-radius: 3px;
+        padding: 10px;
+        background-color: rgb(246, 246, 246);
+        .fee {
+          display: flex;
+          justify-content: space-between;
+          margin: 5px 0;
+        }
+        .total {
+          color: rgb(254, 56, 52);
+        }
+      }
+      .text-note {
+        padding-top: 5px;
+        margin: 5px 0;
+        color: #666;
+        text-align: center;
+        font-size: 13px;
+      }
+    }
+    .booking-modal-footer {
+      width: 100%;
+      .footer-note {
+        background-color: rgb(212, 239, 252);
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 15px;
+        .footer-note-title {
+          font-weight: 600;
+          text-transform: uppercase;
+          margin: 5px 0;
+        }
+        .footer-note-desc {
+          margin: 5px 0;
+        }
+        .footer-note-name {
+          font-weight: 600;
+        }
+      }
+      .footer-confirm {
+        width: 100%;
+        background-color: rgb(255, 196, 25);
+        cursor: pointer;
+        padding: 6px 12px;
+        font-weight: 600;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+      .term-confirm {
+        padding-top: 5px;
+        margin: 5px 0;
+        font-size: 13px;
+        color: #666;
+        text-align: center;
+        .term {
+          color: rgb(69, 195, 210);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+div._loading_overlay_wrapper {
+  position: unset;
+  ._loading_overlay_overlay {
+    z-index: 1000000;
+  }
+}

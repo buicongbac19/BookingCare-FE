@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.detail-specialty-container {
+  .css-1okebmr-indicatorSeparator {
+    display: none;
+  }
+
+  .css-2b097c-container {
+    border-radius: 4px;
+    width: 150px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .css-11unzgr {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+
+  .css-1n7v3ny-option {
+    background-color: rgba(99, 184, 227, 0.6) !important;
+  }
+
+  .css-9gakcf-option {
+    background-color: rgb(99, 184, 227) !important;
+    color: #fff !important;
+  }
+
+  .css-tlfecz-indicatorContainer {
+    scale: 1.2 !important;
+    color: #000 !important;
+  }
+
+  .css-1hwfws3 {
+    caret-color: transparent !important;
+  }
+
+  width: 100%;
+  background-color: #eee;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  .desc-specialty-container {
+    background-color: #fff;
+    .home-icon {
+      width: 1200px;
+      margin: auto;
+      color: rgb(69, 193, 210);
+      margin-top: 10px;
+      cursor: pointer;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+    .desc-specialty {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      background-color: linear-gradient(
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.898),
+        rgb(255, 255, 255)
+      );
+      width: 1200px;
+      margin: auto;
+      overflow: hidden;
+      h1 {
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      h2 {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 10px 0;
+      }
+      p {
+        margin: 0;
+      }
+      li {
+        font-size: 14px;
+      }
+    }
+  }
+  .see-more-container {
+    background-color: #fff;
+    padding-bottom: 20px;
+    .see-more {
+      width: 1200px;
+      margin: auto;
+      color: rgb(40, 138, 214);
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+
+  .sort-container {
+    padding: 10px 0;
+  }
+  .all-doctor {
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 30px;
+    .each-doctor {
+      box-shadow: 0 1px 6px #20212447;
+      background-color: #fff;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      padding: 10px;
+      display: flex;
+      width: 100%;
+      .content-left {
+        width: 50%;
+        .intro-doctor {
+          cursor: pointer;
+          padding-top: 15px;
+          margin: 0;
+          .content-left-container {
+            .content-left {
+              width: 80px;
+              height: 80px;
+            }
+            .see-more {
+              display: block;
+            }
+          }
+          .content-right {
+            border-left: none;
+            padding: 0;
+            .up {
+              color: rgb(69, 195, 210);
+              font-size: 18px;
+            }
+            .down {
+              .down-action {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      .content-right {
+        padding: 15px 15px 8px 15px;
+        border-left: 1px solid #eee;
+        width: 50%;
+        .doctor-extra-info-container {
+          padding: 0;
+          border: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.profile-doctor-container {
+  .profile-doctor {
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    .content-left {
+      width: 100px;
+      height: 100px;
+      background-size: contain;
+      background-position: center center;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .content-right {
+      .text-booking {
+        text-transform: uppercase;
+        color: rgb(85, 85, 85);
+      }
+      .doctor-name {
+        font-size: 16px;
+        font-weight: 700;
+        color: rgb(51, 122, 183);
+        margin: 5px 0;
+      }
+      .booking-time {
+        font-size: 13px;
+        color: rgb(85, 85, 85);
+      }
+    }
+  }
+  .price-wrapper {
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid rgb(248, 144, 8);
+    border-radius: 3px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    margin: 9px 0 9px 15px;
+    cursor: pointer;
+    .price-text {
+      display: inline-block;
+    }
+    .price-value {
+    }
+  }
+}
+
+.intro-doctor {
+  padding-bottom: 16px;
+  display: flex;
+  .content-left-container {
+    display: flex;
+    flex-direction: column;
+    .content-left {
+      width: 120px;
+      height: 120px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .see-more {
+      padding-top: 8px;
+      color: rgb(69, 195, 210);
+      font-weight: 500;
+      display: none;
+    }
+  }
+  .content-right {
+    flex: 1;
+    .up {
+      font-size: 27px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+    .down {
+      color: rgb(85, 85, 85);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      .doctor-desc {
+        display: block;
+        margin: 5px 0;
+      }
+      .down-address {
+        display: flex;
+        .down-address-icon {
+          margin-right: 5px;
+        }
+      }
+      .down-action {
+        margin-top: 5px;
+        .like-icon {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

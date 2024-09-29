@@ -1,0 +1,44 @@
+/*
+ * General styles
+ */
+body,
+html {
+  background-image: "#fff";
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: $fontmain;
+  font-size: $base-size - 2px;
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(#000, 0.4); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid orange; /* creates padding around scroll thumb */
+}
+
+.content-container {
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: $base-size + 4px;
+    margin-top: 15px;
+    color: $colormain;
+  }
+  .content {
+    margin: 15px 30px;
+    box-shadow: 2px 2px 4px 0 $box-shadow-color;
+    -webkit-box-shadow: 2px 2px 4px 0 $box-shadow-color;
+  }
+}
