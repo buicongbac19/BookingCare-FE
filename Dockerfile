@@ -1,5 +1,5 @@
 # Sử dụng Node.js làm môi trường build
-FROM node:14 AS build
+FROM node:18 AS build
 
 # Thiết lập thư mục làm việc trong container
 WORKDIR /app
